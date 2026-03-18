@@ -1,0 +1,50 @@
+Loading db file '/home/internship/UMC65/UMK65LSCLLMVBBR_B03_TAPEOUTKIT/synopsys/uk65lscllmvbbr_110c-40_bc.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+        -verbose
+Design : Radix_4_8bit
+Version: U-2022.12-SP2
+Date   : Sat Sep  6 00:02:21 2025
+****************************************
+
+
+Library(s) Used:
+
+    uk65lscllmvbbr_110c-40_bc (File: /home/internship/UMC65/UMK65LSCLLMVBBR_B03_TAPEOUTKIT/synopsys/uk65lscllmvbbr_110c-40_bc.db)
+
+
+Operating Conditions: uk65lscllmvbbr_110c-40_bc   Library: uk65lscllmvbbr_110c-40_bc
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+Radix_4_8bit           wl0               uk65lscllmvbbr_110c-40_bc
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+Radix_4_8bit                           2.74e-03 1.90e-02 6.80e+04 2.18e-02 100.0
+  add_0_root_r427 (Radix_4_8bit_DW01_add_3)
+                                       1.14e-04 3.80e-04 3.81e+03 4.98e-04   2.3
+  r424 (Radix_4_8bit_DW01_add_2)       1.02e-04 3.60e-04 4.16e+03 4.67e-04   2.1
+  add_93 (Radix_4_8bit_DW01_add_1)     9.13e-05 3.17e-04 3.92e+03 4.12e-04   1.9
+  add_1_root_add_96_2 (Radix_4_8bit_DW01_add_0)
+                                       1.14e-04 3.77e-04 4.17e+03 4.95e-04   2.3
+1
