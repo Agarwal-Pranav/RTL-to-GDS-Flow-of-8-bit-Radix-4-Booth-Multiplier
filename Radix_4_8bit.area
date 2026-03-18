@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : Radix_4_8bit
+Version: U-2022.12-SP2
+Date   : Sat Sep  6 00:02:19 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    uk65lscllmvbbr_110c-40_bc (File: /home/internship/UMC65/UMK65LSCLLMVBBR_B03_TAPEOUTKIT/synopsys/uk65lscllmvbbr_110c-40_bc.db)
+
+Number of ports:                          139
+Number of nets:                           361
+Number of cells:                          230
+Number of combinational cells:            174
+Number of sequential cells:                46
+Number of macros/black boxes:               0
+Number of buf/inv:                         27
+Number of references:                      36
+
+Combinational area:                552.240005
+Buf/Inv area:                       29.880001
+Noncombinational area:             316.440005
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   868.680011
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------
+Radix_4_8bit                       868.6800    100.0  333.0000   316.4400  0.0000  Radix_4_8bit
+add_0_root_r427                     58.6800      6.8   58.6800     0.0000  0.0000  Radix_4_8bit_DW01_add_3
+add_1_root_add_96_2                 52.2000      6.0   52.2000     0.0000  0.0000  Radix_4_8bit_DW01_add_0
+add_93                              51.1200      5.9   51.1200     0.0000  0.0000  Radix_4_8bit_DW01_add_1
+r424                                57.2400      6.6   57.2400     0.0000  0.0000  Radix_4_8bit_DW01_add_2
+--------------------------------  ---------  -------  --------  ---------  ------  -----------------------
+Total                                                 552.2400   316.4400  0.0000
+
+1
